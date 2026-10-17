@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C1C23630838311003D2616 /* category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80C1C23530838311003D2616 /* category.txt */; };
+		80C1C238308384F2003D2616 /* fish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80C1C237308384F2003D2616 /* fish.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80DA7C2E30777B9A006AC07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DA7C1830777B99006AC07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DA7C1F30777B99006AC07B;
+			remoteInfo = FishStore;
+		};
+		80DA7C3830777B9A006AC07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DA7C1830777B99006AC07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DA7C1F30777B99006AC07B;
+			remoteInfo = FishStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80C1C23530838311003D2616 /* category.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = category.txt; sourceTree = "<group>"; };
+		80C1C237308384F2003D2616 /* fish.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fish.txt; sourceTree = "<group>"; };
+		80DA7C2030777B9A006AC07B /* FishStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DA7C2D30777B9A006AC07B /* FishStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DA7C3730777B9A006AC07B /* FishStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80DA7C2230777B9A006AC07B /* FishStore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FishStore;
+			sourceTree = "<group>";
+		};
+		80DA7C3030777B9A006AC07B /* FishStoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FishStoreTests;
+			sourceTree = "<group>";
+		};
+		80DA7C3A30777B9A006AC07B /* FishStoreUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FishStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DA7C1D30777B99006AC07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C2A30777B9A006AC07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C3430777B9A006AC07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80C1C23430838293003D2616 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				80DA7C2230777B9A006AC07B /* FishStore */,
+				80C1C23530838311003D2616 /* category.txt */,
+				80C1C237308384F2003D2616 /* fish.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		80DA7C1730777B99006AC07B = {
+			isa = PBXGroup;
+			children = (
+				80C1C23430838293003D2616 /* Data */,
+				80DA7C3030777B9A006AC07B /* FishStoreTests */,
+				80DA7C3A30777B9A006AC07B /* FishStoreUITests */,
+				80DA7C2130777B9A006AC07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80DA7C2130777B9A006AC07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DA7C2030777B9A006AC07B /* FishStore.app */,
+				80DA7C2D30777B9A006AC07B /* FishStoreTests.xctest */,
+				80DA7C3730777B9A006AC07B /* FishStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DA7C1F30777B99006AC07B /* FishStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DA7C4130777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStore" */;
+			buildPhases = (
+				80DA7C1C30777B99006AC07B /* Sources */,
+				80DA7C1D30777B99006AC07B /* Frameworks */,
+				80DA7C1E30777B99006AC07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				80DA7C2230777B9A006AC07B /* FishStore */,
+			);
+			name = FishStore;
+			packageProductDependencies = (
+			);
+			productName = FishStore;
+			productReference = 80DA7C2030777B9A006AC07B /* FishStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80DA7C2C30777B9A006AC07B /* FishStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DA7C4430777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStoreTests" */;
+			buildPhases = (
+				80DA7C2930777B9A006AC07B /* Sources */,
+				80DA7C2A30777B9A006AC07B /* Frameworks */,
+				80DA7C2B30777B9A006AC07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DA7C2F30777B9A006AC07B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80DA7C3030777B9A006AC07B /* FishStoreTests */,
+			);
+			name = FishStoreTests;
+			packageProductDependencies = (
+			);
+			productName = FishStoreTests;
+			productReference = 80DA7C2D30777B9A006AC07B /* FishStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80DA7C3630777B9A006AC07B /* FishStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DA7C4730777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStoreUITests" */;
+			buildPhases = (
+				80DA7C3330777B9A006AC07B /* Sources */,
+				80DA7C3430777B9A006AC07B /* Frameworks */,
+				80DA7C3530777B9A006AC07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DA7C3930777B9A006AC07B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80DA7C3A30777B9A006AC07B /* FishStoreUITests */,
+			);
+			name = FishStoreUITests;
+			packageProductDependencies = (
+			);
+			productName = FishStoreUITests;
+			productReference = 80DA7C3730777B9A006AC07B /* FishStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80DA7C1830777B99006AC07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					80DA7C1F30777B99006AC07B = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					80DA7C2C30777B9A006AC07B = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 80DA7C1F30777B99006AC07B;
+					};
+					80DA7C3630777B9A006AC07B = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 80DA7C1F30777B99006AC07B;
+					};
+				};
+			};
+			buildConfigurationList = 80DA7C1B30777B99006AC07B /* Build configuration list for PBXProject "FishStore" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80DA7C1730777B99006AC07B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80DA7C2130777B9A006AC07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80DA7C1F30777B99006AC07B /* FishStore */,
+				80DA7C2C30777B9A006AC07B /* FishStoreTests */,
+				80DA7C3630777B9A006AC07B /* FishStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80DA7C1E30777B99006AC07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C1C23630838311003D2616 /* category.txt in Resources */,
+				80C1C238308384F2003D2616 /* fish.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C2B30777B9A006AC07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C3530777B9A006AC07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DA7C1C30777B99006AC07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C2930777B9A006AC07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DA7C3330777B9A006AC07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80DA7C2F30777B9A006AC07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DA7C1F30777B99006AC07B /* FishStore */;
+			targetProxy = 80DA7C2E30777B9A006AC07B /* PBXContainerItemProxy */;
+		};
+		80DA7C3930777B9A006AC07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DA7C1F30777B99006AC07B /* FishStore */;
+			targetProxy = 80DA7C3830777B9A006AC07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80DA7C3F30777B9A006AC07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80DA7C4030777B9A006AC07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80DA7C4230777B9A006AC07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80DA7C4330777B9A006AC07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80DA7C4530777B9A006AC07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishStore";
+			};
+			name = Debug;
+		};
+		80DA7C4630777B9A006AC07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishStore";
+			};
+			name = Release;
+		};
+		80DA7C4830777B9A006AC07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishStore;
+			};
+			name = Debug;
+		};
+		80DA7C4930777B9A006AC07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FishStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DA7C1B30777B99006AC07B /* Build configuration list for PBXProject "FishStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DA7C3F30777B9A006AC07B /* Debug */,
+				80DA7C4030777B9A006AC07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DA7C4130777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DA7C4230777B9A006AC07B /* Debug */,
+				80DA7C4330777B9A006AC07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DA7C4430777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DA7C4530777B9A006AC07B /* Debug */,
+				80DA7C4630777B9A006AC07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DA7C4730777B9A006AC07B /* Build configuration list for PBXNativeTarget "FishStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DA7C4830777B9A006AC07B /* Debug */,
+				80DA7C4930777B9A006AC07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80DA7C1830777B99006AC07B /* Project object */;
+}
